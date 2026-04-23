@@ -46,3 +46,18 @@ docs/instructions/Roadmap.md
 .cursorrules
 *.md
 .qodo
+
+# === Security: Secret files (auto-added by Secret Sentinel) ===
+.env
+.env.*
+!.env.example
+!.env.template
+.vercel/.env.*
+*.pem
+*.key
+serviceAccountKey*.json
+firebase-service-account*.json
+*.p12
+*.pfx
+.vercel/
+.railway/

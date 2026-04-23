@@ -24,3 +24,11 @@ README.md
 logs
 dist-ssr
 .DS_Store
+
+# Security: Secret files (auto-added by Secret Sentinel)
+*.pem
+*.key
+*.p12
+*.pfx
+serviceAccountKey*.json
+firebase-service-account*.json
